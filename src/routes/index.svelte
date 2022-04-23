@@ -23,7 +23,7 @@
 				to make our first NFT project - Birthdayz Coinz accessible,
 				hence the starting price point of 1 SOL.
 			</p>
-			<p>
+			<p id="test">
 				This will grant ownership to a beautiful, rare, and
 				well-detailed 3D coin. Owners will also have the opportunity to
 				participate in our process of making changes and improve other

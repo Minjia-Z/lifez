@@ -28,7 +28,7 @@
                         </svg>
                     </a>
                     <ul class="p-2 bg-base-100">
-                        <li><a>Submenu 1</a></li>
+                        <li><a href="#test">Submenu 1</a></li>
                         <li><a>Submenu 2</a></li>
                     </ul>
                 </li>
