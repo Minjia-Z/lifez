@@ -1,5 +1,7 @@
 <script>
 	let links = [""];
+	import Demo from "$lib/demo.svelte";
+	import Spacer from "$lib/utils/spacer.svelte";
 </script>
 
 <div class="bg-white p-10 font-main min-h-screen">
@@ -40,6 +42,7 @@
 
 		<img class="flex-1 object-cover" src="/ballons_nbg.png" alt="baloons" />
 	</div>
+	<Spacer />
 
-	<button>Arrow Down</button>
+	<Demo />
 </div>

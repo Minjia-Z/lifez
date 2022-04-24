@@ -1,9 +1,11 @@
 <script>
+    import Footer from "$lib/footer.svelte";
+    import Spacer from "$lib/utils/spacer.svelte";
     import "../app.css";
 </script>
 
-<div class="p-8 max-w-screen-lg mx-auto">
-    <div class="navbar bg-base-100 mb-24">
+<div class="max-w-screen-lg mx-auto">
+    <div class="navbar bg-base-100 my-10">
         <div class="flex-1">
             <a class="flex normal-case text-xl" href="/"
                 ><img class="h-10" src="/LIFEZ_logo.jpg" alt="logo" /></a
@@ -32,10 +34,12 @@
                         <li><a>Submenu 2</a></li>
                     </ul>
                 </li>
-                <li><a>Item 3</a></li>
+                <li><a href="#demoParagraph">Item 3</a></li>
             </ul>
         </div>
     </div>
 
     <slot />
+    <Spacer />
+    <Footer />
 </div>
