@@ -4,8 +4,19 @@
 	import Spacer from "$lib/utils/spacer.svelte";
 </script>
 
-<div class="bg-white p-10 font-main min-h-screen">
-	<div class="flex flex-wrap-reverse justify-between gap-10 items-center">
+<div class="bg-white p-10 font-main min-h-screen ">
+	<Demo />
+
+	<Spacer height="10rem" />
+
+	<div
+		class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-items-center"
+	>
+		<img
+			class="flex-1 object-cover md:order-last"
+			src="/ballons_nbg.png"
+			alt="baloons"
+		/>
 		<div class="flex flex-col gap-8 justify-center max-w-md flex-1">
 			<h1 class="text-5xl font-bold">Birthday Coins</h1>
 			<p>
@@ -39,10 +50,5 @@
 				>
 			</div>
 		</div>
-
-		<img class="flex-1 object-cover" src="/ballons_nbg.png" alt="baloons" />
 	</div>
-	<Spacer />
-
-	<Demo />
 </div>
