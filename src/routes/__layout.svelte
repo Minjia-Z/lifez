@@ -13,12 +13,12 @@
         </div>
         <div class="flex-none">
             <ul class="menu menu-horizontal p-0">
-                <li><a>Purchase Now</a></li>
+                <li><a>Purchase</a></li>
                 <li><a href="#demoParagraph">Roadmap</a></li>
                 <li><a href="#footer">About Us</a></li>
                 <li tabindex="0">
                     <a>
-                        Connect with Us
+                        Connect
                         <svg
                             class="fill-current"
                             xmlns="http://www.w3.org/2000/svg"
