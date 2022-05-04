@@ -1,7 +1,8 @@
 <footer class="footer items-center p-10 text-base-content border-t-2">
     <div class="items-center grid-flow-col">
         <img src="/LIFEZ_Logo.jpg" alt="logo" class="w-5" />
-        <p>Copyright © 2022 - All right reserved</p>
+        <p>LifeZ - Celebrating life</p>
+        <p class="items-center">&nbsp&nbsp&nbsp Copyright © 2022 - All right reserved</p>
     </div>
     <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
         <a href="https://twitter.com/LifeZ_NFT" target="_blank">

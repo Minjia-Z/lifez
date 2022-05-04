@@ -13,10 +13,12 @@
         </div>
         <div class="flex-none">
             <ul class="menu menu-horizontal p-0">
-                <li><a>Item 1</a></li>
+                <li><a>Purchase Now</a></li>
+                <li><a href="#demoParagraph">Roadmap</a></li>
+                <li><a href="#footer">About Us</a></li>
                 <li tabindex="0">
                     <a>
-                        Parent
+                        Connect with Us
                         <svg
                             class="fill-current"
                             xmlns="http://www.w3.org/2000/svg"
@@ -30,11 +32,11 @@
                         </svg>
                     </a>
                     <ul class="p-2 bg-base-100">
-                        <li><a href="#test">Submenu 1</a></li>
-                        <li><a>Submenu 2</a></li>
+                        <li><a href="https://twitter.com/LifeZ_NFT" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/lifez_nft/" target="_blank">Instagram</a></li>
+                        <li><a href="https://discord.com/invite/AwaRjxDZDw" target="_blank">Discord</a></li>
                     </ul>
                 </li>
-                <li><a href="#demoParagraph">Item 3</a></li>
             </ul>
         </div>
     </div>

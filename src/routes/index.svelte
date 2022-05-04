@@ -3,8 +3,8 @@
 	import Demo from "$lib/demo.svelte";
 	import Spacer from "$lib/utils/spacer.svelte";
 </script>
-
-<div class="bg-white p-10 font-main min-h-screen ">
+<title>Birthdayz NFT Collection</title>
+<div class="p-10 font-main min-h-screen ">
 	<Demo />
 
 	<Spacer height="10rem" />
@@ -14,40 +14,27 @@
 	>
 		<img
 			class="flex-1 object-cover md:order-last"
-			src="/ballons_nbg.png"
+			src="/gift_nbg.png"
 			alt="baloons"
 		/>
 		<div class="flex flex-col gap-8 justify-center max-w-md flex-1">
-			<h1 class="text-5xl font-bold">Birthday Coins</h1>
-			<p>
-				What does time mean to you? We are defined by the dates that are
-				valuable to us. This is how we perceive time because important
-				things happen on these time marks that are like pearls on a
-				string. Ever since the day we’re born, we look forward to
-				birthdays because great memories are attached to these dates,
-				and we hope to make them even better for you and the people you
-				care about.
-			</p>
-			<p>
-				The LifeZ project will involve a number of small NFT projects,
-				all centered around our mission of making lives better. LifeZ
-				will also be actively donating to charities that fund brain
-				disease research and/or taking care of people in need. We want
-				to make our first NFT project - Birthdayz Coinz accessible,
-				hence the starting price point of 1 SOL.
-			</p>
+			<h1 class="text-5xl font-bold">The Collection</h1>
 			<p id="test">
-				This will grant ownership to a beautiful, rare, and
-				well-detailed 3D coin. Owners will also have the opportunity to
-				participate in our process of making changes and improve other
-				people’s lives.
+				The Birthdayz Coinz collection includes a total of 1,098 unique 
+				coins made up of 3 different colours for each of the 366 
+				days in a year. Each date is detailed with unique astronomical 
+				features on the front and back side of the coin. 
+				Making them truly special and meaningful.
+			</p>
+			<p>
+				On top of the uniqueness and the exquisite design. Coin holders 
+				will be able to access the interactive 
+				contents in the near future, gain whitelist spots 
+				for our next projects, airdrops, and participate 
+				in our projects in various different ways. 
+
 			</p>
 			<div class="flex gap-4">
-				<button class="btn btn-primary rounded-full"
-					>Download App</button
-				>
-				<button class="btn btn-primary rounded-full">Watch Video</button
-				>
 			</div>
 		</div>
 	</div>
